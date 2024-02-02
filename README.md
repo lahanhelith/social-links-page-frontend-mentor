@@ -23,8 +23,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Solution URL](https://your-solution-url.com)
-- Live Site URL: [Live Site URL](https://your-live-site-url.com)
+- Solution URL: [Solution URL](https://github.com/lahanhelith/social-links-page-frontend-mentor)
+- Live Site URL: [Live Site URL](https://spiffy-quokka-065686.netlify.app/)
 
 ## My process
 
