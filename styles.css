@@ -1,0 +1,83 @@
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+@font-face {
+    font-family: "Inter";
+    src: url("/assets/fonts/Inter-VariableFont_slnt\,wght.ttf");
+}
+
+*{
+    box-sizing:border-box;
+}
+
+p{
+    font-size:14px;
+    font-weight:300;
+}
+
+body{
+    font-family:"Inter";
+    margin:0;
+    background-color: hsl(0, 0%, 8%);
+    color:white;
+}
+
+.card{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    background-color:hsl(0, 0%, 12%);
+    border-radius: 0.6rem;
+    width:21.875rem;
+    padding:2rem 0;
+}
+
+.btn{
+    display: block;
+    width:100%;
+    padding:0.8rem 0.6rem;
+    margin-top:1em;
+    background-color:hsl(0, 0%, 20%);
+    color:white;
+    font-family:"Inter";
+    border-radius:0.5rem;
+    border:none;
+    font-weight:700;
+    cursor:pointer;
+    transition-property: background-color, color;
+    transition-duration:200ms;
+
+}
+
+.btn:hover{
+    background-color:hsl(75, 94%, 57%);
+    color:hsl(0, 0%, 8%);
+}
+
+.content-container{
+    padding:1.1rem 2.5rem;
+}
+
+.bio-container{
+    text-align:center;
+    padding:0 0.4em;
+}
+
+img{
+    border-radius:50%;
+    width:25%;
+    display:block;
+    margin:0 auto;
+}
+
+h3{
+    margin-bottom:0.3rem;
+}
+
+.green-text{
+    color:hsl(75, 94%, 57%);
+    font-weight:600;
+    margin-top:0;
+    font-size:16px;
+}
